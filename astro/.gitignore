@@ -1,0 +1,60 @@
+# build output
+# Archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+#Archivos generados por VSCode
+.vscode
+
+# Archivos de compilación
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.so
+*.exe
+*.out
+*.log
+
+# Directorios de entornos virtuales de Python
+venv/
+env/
+ENV/
+
+# Dependencias y directorios de paquetes
+/node_modules
+/bower_components
+/vendor
+/lib
+/pip-selfcheck.json
+
+# Archivos de configuración
+/.env
+.env.local
+.env.*.local
+.buildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env.production
+.env.development
+.env.test
+.env.staging
+
+# Archivos de configuración específicos de Astro
+/dist
+/.astro
+/node_modules
+/.astro-temp
+!/.astro/config.js
+!/src/pages/_app.astro
+
+# Dependencias específicas de Astro
+/.astro/astro.conf.json
+/.astro/cache
+/.astro/generated
